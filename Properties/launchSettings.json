@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "scraper.salamnews.org": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

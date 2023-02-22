@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  scraper.salamnews.org:
+    image: ${DOCKER_REGISTRY-}scrapersalamnewsorg
+    build:
+      context: .
+      dockerfile: Dockerfile
